@@ -1,10 +1,14 @@
 import React from 'react'
+import { FooterContainer } from './style'
 
 const Footer = () => {
   return (
-    <div>
-      
-    </div>
+    <FooterContainer>
+      <footer>
+        Para mais informações sobre o combate à caspa, acesse o <strong>Dermaclub</strong>
+      </footer>
+      <hr/>
+    </FooterContainer>
   );
 }
 

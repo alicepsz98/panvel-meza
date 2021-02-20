@@ -1,12 +1,14 @@
 import React from 'react'
+import Banner from '../../components/Banner/index'
+import Main from '../../components/Main/index'
+import { HomeContainer } from './style'
 
 const Home = () => {
   return (
-    <div>
-      <Header />
+    <HomeContainer>
+      <Banner />
       <Main />
-      <Footer />
-    </div>
+    </HomeContainer>
   );
 }
 

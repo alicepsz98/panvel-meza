@@ -5,14 +5,12 @@ import Error from '../pages/Error/index'
 
 function Router() {
   return (
-    <BrowserRouter>
       <Switch>
         <Route exact path='/'>
           <Home />
         </Route>
         <Error />
       </Switch>
-    </BrowserRouter>
   ) 
 }
 

@@ -1,10 +1,12 @@
 import React from 'react'
+import { ButtonContainer } from './style'
 
-const FilterButton = () => {
+const FilterButton = (props) => {
   return (
-    <div>
-      
-    </div>
+    <ButtonContainer>
+      <img src={props.img} alt="Ícone"/>
+      <p>{props.name}</p>
+    </ButtonContainer>
   );
 }
 

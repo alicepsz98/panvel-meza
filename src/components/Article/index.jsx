@@ -1,10 +1,12 @@
 import React from 'react'
+import { ArticleContainer } from './style'
 
-const Article = () => {
+const Article = (props) => {
   return (
-    <div>
-      
-    </div>
+    <ArticleContainer>
+      <h3>{props.title}</h3>
+      <p>{props.text}</p>
+    </ArticleContainer>
   );
 }
 
