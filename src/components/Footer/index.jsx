@@ -3,12 +3,9 @@ import { FooterContainer } from './style'
 
 const Footer = () => {
   return (
-    <FooterContainer>
-      <footer>
-        Para mais informações sobre o combate à caspa, acesse o <strong>Dermaclub</strong>
-      </footer>
-      <hr/>
-    </FooterContainer>
+      <FooterContainer>
+        <p>Para mais informações sobre o combate à caspa, acesse o <u><b>Dermaclub</b></u></p>
+      </FooterContainer>
   );
 }
 
