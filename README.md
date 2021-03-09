@@ -6,15 +6,15 @@
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/alicepsz98/panvel-meza?logo=javascript">
 </p>
 
-![Netflix - Clone](https://github.com/alicepsz98/panvel-meza/blob/main/mockup.png)
+![Mockup](https://github.com/alicepsz98/panvel-meza/blob/main/mockup.png)
 
 ---
 
-## 👨‍💻️ Tecnologias Utilizadas
+## 👨‍💻️ Technologies
 
 - React
 
-### Dependências:
+### Dependencies:
 
 - Styled Components
 - Router DOM
@@ -30,6 +30,6 @@
 ---
 
 <h4 align="center">
-  por Alice Souza 💚
+  by Alice Souza 💚
 </h4>
 
